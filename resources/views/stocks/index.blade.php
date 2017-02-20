@@ -1,6 +1,7 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
+    <hr>
     <h1>Stock</h1>
     <a href="{{url('/stocks/create')}}" class="btn btn-success">Create Stock</a>
     <hr>
